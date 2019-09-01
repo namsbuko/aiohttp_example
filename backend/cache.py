@@ -1,11 +1,10 @@
-import json
 import pickle
 
 import aioredis
 from aiohttp.web_middlewares import middleware
 from aiohttp.web_response import Response
 
-from aiohttp_cache import RedisCache
+
 # just for json/application content-type
 class RedisCache:
     def __init__(self, redis_pool):

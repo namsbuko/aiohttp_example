@@ -1,4 +1,5 @@
 aiohttp==3.*
+aioredis
 gunicorn
 PyJWT
 envparse
