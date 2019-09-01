@@ -1,0 +1,4 @@
+aiohttp==3.*
+gunicorn
+PyJWT
+envparse
